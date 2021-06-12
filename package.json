@@ -1,0 +1,17 @@
+{
+  "name": "express-sqlite",
+  "version": "1.0.0",
+  "description": "belajar express dengan db sqlite",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js --watch"
+  },
+  "author": "fadliselaz",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.95.6",
+    "sqlite3": "^5.0.2"
+  }
+}
