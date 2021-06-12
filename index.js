@@ -100,7 +100,7 @@ app.post("/api/login", (req, res) => {
         });
       }
     })
-    .then((err) => {
+    .catch((err) => {
       res.json({
         success: false,
         message : "login gagal",
